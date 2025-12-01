@@ -1,9 +1,9 @@
 {
-	"name": "src",
-	"description": "Utilitário de Comandos SQL",
+	"name": "sqlutils",
+	"description": "",
 	"version": "1.0.0",
 	"homepage": "",
-	"mainsrc": "src/",
+	"mainsrc": "./src",
 	"projects": [],
 	"dependencies": {}
 }
