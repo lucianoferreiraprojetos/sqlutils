@@ -33,11 +33,17 @@ object Form3: TForm3
     TitleFont.Style = []
   end
   object BitBtn1: TBitBtn
-    Left = 304
-    Top = 288
+    Left = 120
+    Top = 255
     Width = 217
-    Height = 57
+    Height = 42
     Caption = 'Executar SQL'
     TabOrder = 2
+    OnClick = BitBtn1Click
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 648
+    Top = 320
   end
 end

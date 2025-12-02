@@ -120,7 +120,9 @@
         <DCCReference Include="..\src\SqlUtils.SqlPoolConnection.pas"/>
         <DCCReference Include="..\src\SqlUtils.SqlLogger.pas"/>
         <DCCReference Include="..\src\SqlUtils.SqlPoolConnectionHorse.pas"/>
-        <DCCReference Include="..\src\SqlUtils.SqlQueryCriteria.pas"/>
+        <DCCReference Include="..\src\SqlUtils.SqlCriteriaBuilder.pas"/>
+        <DCCReference Include="..\src\SqlUtils.SqlCriteriaQuery.pas"/>
+        <DCCReference Include="SqlPoolConnectionInstance.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

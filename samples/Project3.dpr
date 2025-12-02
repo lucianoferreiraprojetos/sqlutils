@@ -21,7 +21,9 @@ uses
   SqlUtils.SqlPoolConnection in '..\src\SqlUtils.SqlPoolConnection.pas',
   SqlUtils.SqlLogger in '..\src\SqlUtils.SqlLogger.pas',
   SqlUtils.SqlPoolConnectionHorse in '..\src\SqlUtils.SqlPoolConnectionHorse.pas',
-  SqlUtils.SqlQueryCriteria in '..\src\SqlUtils.SqlQueryCriteria.pas';
+  SqlUtils.SqlCriteriaBuilder in '..\src\SqlUtils.SqlCriteriaBuilder.pas',
+  SqlUtils.SqlCriteriaQuery in '..\src\SqlUtils.SqlCriteriaQuery.pas',
+  SqlPoolConnectionInstance in 'SqlPoolConnectionInstance.pas';
 
 {$R *.res}
 
